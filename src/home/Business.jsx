@@ -1,11 +1,9 @@
 import React, { Component , Fragment } from "react";
 import ScrollToTop from 'react-scroll-up';
 import ServiceOne from "../elements/service/ServiceOne";
-import BlogContent from "../elements/blog/BlogContent";
 import BrandTwo from "../elements/BrandTwo";
 import Header from "../component/header/Header";
 import Footer from "../component/footer/Footer";
-import CallAction from "../elements/callaction/CallAction";
 // import Accordion01 from "../elements/Accordion";
 import { FiCheck, FiChevronUp } from "react-icons/fi";
 import Helmet from "../component/common/Helmet";
@@ -43,8 +41,7 @@ class Business extends Component{
         this.setState({isOpen: true})
     }
     render(){
-        
-        const PostList = BlogContent.slice(0 , 3);
+    
 
         return(
             <Fragment> 
@@ -101,7 +98,7 @@ class Business extends Component{
                             </div>
                         </div>
                         <div className="slide-btn">
-                            <a className="rn-button-style--2 btn-primary-color" href="">learn more</a>
+                            <a className="rn-button-style--2 btn-primary-color" target="_blank" without rel="noopener noreferrer" href="https://hello.dubsado.com:443/public/form/view/602ecf15ed2c17126a93fe00">learn more</a>
                         </div>
                     </div>
                 </div>
@@ -137,7 +134,7 @@ class Business extends Component{
                                     <h3>LET’S MATCH THE AMAZING ENERGY YOU PUT INTO YOUR BUSINESS WITH A BRAND AESTHETIC TO MATCH.</h3>
                             </div>
                             <div className="slide-btn" style={{margin:"auto"}}>
-                                <a className="rn-button-style--2 btn-primary-color" href="">ready?</a>
+                                <a className="rn-button-style--2 btn-primary-color" target="_blank" without rel="noopener noreferrer" href="https://hello.dubsado.com:443/public/form/view/602ecf15ed2c17126a93fe00">ready?</a>
                                 <p>like yesterday...</p>
                             </div>
                         </div>
@@ -163,7 +160,7 @@ class Business extends Component{
                                 <div className="section-title service-style--3 text-center mb--30 mb_sm--0">
                                     <h2 className="title">ARE YOU READY FOR A...</h2>
                                     <img className="w-100" src="/assets/images/transformation.gif" alt="Transformation GIF"/>
-                                    <a className="rn-button-style--2 btn-primary-color" href="">learn more</a>
+                                    <a className="rn-button-style--2 btn-primary-color" target="_blank" without rel="noopener noreferrer" href="https://hello.dubsado.com:443/public/form/view/602ecf15ed2c17126a93fe00">learn more</a>
                                     <p>i thought you’d never ask!</p>
                                 </div>
                             </div>
@@ -198,7 +195,7 @@ class Business extends Component{
                                 <div className="section-title service-style--3 text-center mb--30 mb_sm--0">
                                     <h2 className="title">“WORKING WITH CANDACE HAS BEEN A DREAM COME TRUE.”.</h2>
                                     <p>Not all designers are able to bring to life and execute your vision but she truly has a gift. Not only is her website design incredible but her logo work and overall artistry and creativity is next-level. She is prompt and professional and is willing to answer any question you may have. She is very patient and gracious and truly knows her stuff!! You will absolutely not be disappointed in choosing Candace for any creative endeavor.</p>
-                                    <a className="rn-button-style--2 btn-primary-color" href="">learn more</a>
+                                    <a className="rn-button-style--2 btn-primary-color" target="_blank" without rel="noopener noreferrer" href="https://hello.dubsado.com:443/public/form/view/602ecf15ed2c17126a93fe00">learn more</a>
                                     <p>i thought you’d never ask!</p>
                                 </div>
                             </div>
@@ -216,7 +213,7 @@ class Business extends Component{
                                 <div className="section-title service-style--3 text-center mb--30 mb_sm--0">
                                     <h2 className="title">“SOMETHING HELLA PROFOUND HERE AND ADD SOME SEASONING TO IT”</h2>
                                     <h3>-Candace Rogue</h3>
-                                    <a className="rn-button-style--2 btn-primary-color" href="">learn more</a>
+                                    <a className="rn-button-style--2 btn-primary-color" target="_blank" without rel="noopener noreferrer" href="https://hello.dubsado.com:443/public/form/view/602ecf15ed2c17126a93fe00">learn more</a>
                                     <p>i thought you’d never ask!</p>
                                 </div>
                             </div>
@@ -511,7 +508,7 @@ class Business extends Component{
                                     <h3 className="title">where are you in your cannapreneur journey?</h3>
                                     <h4>Cop your free copy of the “No More Instagram DM” selling</h4>
                                     <p style={{textAlign:"right", padding:"0", maxWidth:"50%", marginLeft:"50%"}}>Cupcake ipsum dolor. Sit amet carrot cake chocolate bar tootsie roll sugar plum. Tart bear claw marzipan. Cake bonbon tiramisu donut soufflé powder caramels danish.</p>
-                                    <a className="rn-button-style--2 btn-primary-color" href="">download</a>
+                                    <a className="rn-button-style--2 btn-primary-color" target="_blank" without rel="noopener noreferrer" href="https://winning-maker-8622.ck.page/8c1c692d5c">download</a>
                                 </div>
                             </div>
                         </div>   

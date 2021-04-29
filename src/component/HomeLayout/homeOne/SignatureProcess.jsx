@@ -13,7 +13,7 @@ class SignatureProcess extends Component{
                             <div className="col-lg-7 col-md-12">
                                 <div className="thumbnail" style={{position:"relative"}}>
                                     <img className="w-100" src="/assets/images/about/about-1.png" alt="About Images" style={{ zIndex:"1"}}/>
-                                    <a className="rn-button-style--2 btn-primary-color" style={{marginLeft:"-140px", marginTop:"70%", position:"absolute", zIndex:"1000"}} href="">book call</a>
+                                    <a className="rn-button-style--2 btn-primary-color" style={{marginLeft:"-140px", marginTop:"70%", position:"absolute", zIndex:"1000"}} target="_blank" without rel="noopener noreferrer" href="https://hello.dubsado.com:443/public/form/view/602ecf15ed2c17126a93fe00">book call</a>
                                 </div>
                             </div>
 
